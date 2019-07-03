@@ -15,8 +15,6 @@ spring:
     username: zxm
     password: zxm
     virtual-host: zxm
-    template:
-      queue: leyou.order.delay.queue
     publisher-confirms: true
   redis:
     host: 192.168.126.115
