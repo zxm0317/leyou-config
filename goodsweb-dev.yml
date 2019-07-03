@@ -7,11 +7,11 @@ spring:
     cache: false
   rabbitmq:
     host: 192.168.19.121
-    username: /leyou
-    password: leyou
-    virtual-host: /leyou
+    username: zxm
+    password: zxm
+    virtual-host: zxm
   redis:
-    host: 192.168.19.121
+    host: 192.168.126.115
 eureka:
   client:
     service-url:
