@@ -17,11 +17,6 @@ spring:
     virtual-host: zxm
     template:
       queue: leyou.order.delay.queue
-      retry:
-        enabled: true
-        max-interval: 210000ms
-        initial-interval: 10000ms
-        multiplier: 2
     publisher-confirms: true
   redis:
     host: 192.168.126.115
