@@ -16,6 +16,7 @@ spring:
     password: zxm
     virtual-host: zxm
     template:
+      queue: leyou.order.delay.queue
       retry:
         enabled: true
         max-interval: 210000ms
