@@ -12,9 +12,9 @@ spring:
       minimum-idle: 100
   rabbitmq:
     host: 192.168.126.115
-    username: /leyou
-    password: leyou
-    virtual-host: /leyou
+    username: zxm
+    password: zxm
+    virtual-host: zxm
     template:
       queue: leyou.order.delay.queue
     publisher-confirms: true
