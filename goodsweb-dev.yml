@@ -6,7 +6,7 @@ spring:
   thymeleaf:
     cache: false
   rabbitmq:
-    host: 192.168.19.121
+    host: 192.168.126.115
     username: zxm
     password: zxm
     virtual-host: zxm
