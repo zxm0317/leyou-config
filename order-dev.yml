@@ -15,6 +15,12 @@ spring:
     username: zxm
     password: zxm
     virtual-host: zxm
+    template:
+      retry:
+        enabled: true
+        max-interval: 210000ms
+        initial-interval: 10000ms
+        multiplier: 2
     publisher-confirms: true
   redis:
     host: 192.168.126.115
